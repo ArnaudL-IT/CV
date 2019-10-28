@@ -30,6 +30,8 @@
 % Change the page layout if you need to
 \geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
 
+\usepackage{hyperref}
+
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
 \ifxetexorluatex
@@ -71,11 +73,11 @@
     \phone{+33.(0).6.72.59.28.52}
   \location{Grenoble, FRANCE}
   
-   \linkedin{www.linkedin.com/in/arnaud-leredde}
+   \linkedin{https://www.linkedin.com/in/arnaud-leredde}
+   \github{https://github.com/ArnaudL-IT}
  %   \twitter{@i4ismaill}
     
  %   web: www.techchain.me
-%   \github{github.com/mmayer} % I'm just making this up though.
 %   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
 }
 
@@ -93,7 +95,15 @@
 %% \cvsection title in the "main" bar.
 \cvsection[page1sidebar]{Experience}
 
-\cvevent{Machine Learning Online Course}{}{August 2019 - September 2019}{Grenoble, France}
+\cvevent{Machine Learning and Data Science projects}{}{Ongoing}{}
+All projects can be found on my \href{https://github.com/ArnaudL-IT}{GitHub account}.
+\begin{itemize}
+    \item IRIS data-set: Unsupervised and supervised algorithm for multi-class classification (K-Mean, Logistic regression, Neural Network, SVM).
+\end{itemize}
+
+\divider
+
+\cvevent{Machine Learning and Data Science training}{}{August 2019 - Now}{Grenoble, France}
 Self teaching data science and machine learning:
 \begin{itemize}
     \item "Machine Learning" by Andrew Ng on coursera, Standford University
@@ -105,22 +115,18 @@ Self teaching data science and machine learning:
 
 \cvevent{Postdoctoral researcher}{LPSC Grenoble}{May 2017 -- July 2019}{Grenoble, France}
 \begin{itemize}
-\item Public speaking: Seminars and talks at international conferences.
-\item Scientific communication through publications in peer reviewed international journals.
+\item Scientific communication: publications in peer reviewed journals, seminars and talks at international conferences.
 \item Supervision of Master student interns.
-\item Data analysis of the most sensitive neutron EDM (Electric Dipole Moment) experiment. Statistical analysis and systematic studies.
-\item Development of a new experiment aiming at measuring the gyromagnetic ratio of Mercury-199 with a tenfold sensitivity improvement (0.1 ppm).
-\item Development of the new Mercury co-magnetometer setup for the next generation neutron EDM experiment.
+\item Data analysis of the neutron EDM (Electric Dipole Moment) experiment. Statistical analysis and systematic studies using C++/Python.
+\item Development of a new precision experiment using optically pumped magnetometers.
 \end{itemize}
 
 \divider
 
 \cvevent{Postdoctoral researcher}{Argonne National Laboratory \& University of Washington}{June 2013 -- August 2016}{Chicago, IL \& Seattle, WA, USA}
 \begin{itemize}
-\item Public speaking: Seminars and talks at international conferences.
-\item Scientific communication through publications in peer reviewed international journals.
-\item Management of PhD students and Interns on various projects.
-\item Development and improvement of the experimental setup. Improvement of a liquid lithium target for the production of the radioactive helium-6 isotope. Development of the laser trapping setup through innovative ideas.
+\item Scientific communication: publications in peer reviewed journals, seminars and talks at international conferences.
+\item Management of PhD students and Interns on various projects (R\&D, simulations).
 \item Organization of data taking campaigns and resources management.
 \item Simulations and data analysis using C++/ROOT.
 \end{itemize}
@@ -129,13 +135,10 @@ Self teaching data science and machine learning:
 
 \cvevent{PhD student in atomic and molecular Physics}{LPC Caen}{October 2009 -- November 2012}{Caen, France}
 \begin{itemize}
-\item Public speaking: Seminars and talks at international conferences.
-\item Scientific communication through publications in peer reviewed international journals.
+\item Data analysis and theoretical calculations.
+\item Scientific communication: publications in peer reviewed journals, seminars and talks at international conferences.
 \item Supervision of Master student interns.
 \item Teaching duties at the University of Caen Normandie, France.
-\item Detector simulations (Geometry, Electric fields, Particles trajectories).
-\item Development and improvement of the experimental setup (Magneto-optical trap, detectors, data acquisition system).
-\item Data analysis and theoretical calculations.
 \end{itemize}
 
 %\divider
